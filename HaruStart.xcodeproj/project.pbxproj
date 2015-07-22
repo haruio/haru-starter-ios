@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5DDE4FA1B5FF01300A284C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DDE4F91B5FF01300A284C0 /* main.m */; };
+		D5DDE4FD1B5FF01300A284C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DDE4FC1B5FF01300A284C0 /* AppDelegate.m */; };
+		D5DDE5001B5FF01300A284C0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DDE4FF1B5FF01300A284C0 /* MasterViewController.m */; };
+		D5DDE5031B5FF01300A284C0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DDE5021B5FF01300A284C0 /* DetailViewController.m */; };
+		D5DDE5061B5FF01300A284C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DDE5041B5FF01300A284C0 /* Main.storyboard */; };
+		D5DDE5081B5FF01300A284C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DDE5071B5FF01300A284C0 /* Images.xcassets */; };
+		D5DDE50B1B5FF01300A284C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5DDE5091B5FF01300A284C0 /* LaunchScreen.xib */; };
+		D5DDE5171B5FF01300A284C0 /* HaruStartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DDE5161B5FF01300A284C0 /* HaruStartTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5DDE5111B5FF01300A284C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5DDE4EC1B5FF01300A284C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5DDE4F31B5FF01300A284C0;
+			remoteInfo = HaruStart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5DDE4F41B5FF01300A284C0 /* HaruStart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaruStart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DDE4F81B5FF01300A284C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DDE4F91B5FF01300A284C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5DDE4FB1B5FF01300A284C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5DDE4FC1B5FF01300A284C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5DDE4FE1B5FF01300A284C0 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D5DDE4FF1B5FF01300A284C0 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D5DDE5011B5FF01300A284C0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D5DDE5021B5FF01300A284C0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D5DDE5051B5FF01300A284C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5DDE5071B5FF01300A284C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5DDE50A1B5FF01300A284C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D5DDE5101B5FF01300A284C0 /* HaruStartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HaruStartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DDE5151B5FF01300A284C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5DDE5161B5FF01300A284C0 /* HaruStartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HaruStartTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5DDE4F11B5FF01300A284C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DDE50D1B5FF01300A284C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5DDE4EB1B5FF01300A284C0 = {
+			isa = PBXGroup;
+			children = (
+				D5DDE4F61B5FF01300A284C0 /* HaruStart */,
+				D5DDE5131B5FF01300A284C0 /* HaruStartTests */,
+				D5DDE4F51B5FF01300A284C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5DDE4F51B5FF01300A284C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5DDE4F41B5FF01300A284C0 /* HaruStart.app */,
+				D5DDE5101B5FF01300A284C0 /* HaruStartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5DDE4F61B5FF01300A284C0 /* HaruStart */ = {
+			isa = PBXGroup;
+			children = (
+				D5DDE4FB1B5FF01300A284C0 /* AppDelegate.h */,
+				D5DDE4FC1B5FF01300A284C0 /* AppDelegate.m */,
+				D5DDE4FE1B5FF01300A284C0 /* MasterViewController.h */,
+				D5DDE4FF1B5FF01300A284C0 /* MasterViewController.m */,
+				D5DDE5011B5FF01300A284C0 /* DetailViewController.h */,
+				D5DDE5021B5FF01300A284C0 /* DetailViewController.m */,
+				D5DDE5041B5FF01300A284C0 /* Main.storyboard */,
+				D5DDE5071B5FF01300A284C0 /* Images.xcassets */,
+				D5DDE5091B5FF01300A284C0 /* LaunchScreen.xib */,
+				D5DDE4F71B5FF01300A284C0 /* Supporting Files */,
+			);
+			path = HaruStart;
+			sourceTree = "<group>";
+		};
+		D5DDE4F71B5FF01300A284C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5DDE4F81B5FF01300A284C0 /* Info.plist */,
+				D5DDE4F91B5FF01300A284C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5DDE5131B5FF01300A284C0 /* HaruStartTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5DDE5161B5FF01300A284C0 /* HaruStartTests.m */,
+				D5DDE5141B5FF01300A284C0 /* Supporting Files */,
+			);
+			path = HaruStartTests;
+			sourceTree = "<group>";
+		};
+		D5DDE5141B5FF01300A284C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5DDE5151B5FF01300A284C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5DDE4F31B5FF01300A284C0 /* HaruStart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DDE51A1B5FF01300A284C0 /* Build configuration list for PBXNativeTarget "HaruStart" */;
+			buildPhases = (
+				D5DDE4F01B5FF01300A284C0 /* Sources */,
+				D5DDE4F11B5FF01300A284C0 /* Frameworks */,
+				D5DDE4F21B5FF01300A284C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaruStart;
+			productName = HaruStart;
+			productReference = D5DDE4F41B5FF01300A284C0 /* HaruStart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5DDE50F1B5FF01300A284C0 /* HaruStartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5DDE51D1B5FF01300A284C0 /* Build configuration list for PBXNativeTarget "HaruStartTests" */;
+			buildPhases = (
+				D5DDE50C1B5FF01300A284C0 /* Sources */,
+				D5DDE50D1B5FF01300A284C0 /* Frameworks */,
+				D5DDE50E1B5FF01300A284C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5DDE5121B5FF01300A284C0 /* PBXTargetDependency */,
+			);
+			name = HaruStartTests;
+			productName = HaruStartTests;
+			productReference = D5DDE5101B5FF01300A284C0 /* HaruStartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5DDE4EC1B5FF01300A284C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = haru;
+				TargetAttributes = {
+					D5DDE4F31B5FF01300A284C0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D5DDE50F1B5FF01300A284C0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D5DDE4F31B5FF01300A284C0;
+					};
+				};
+			};
+			buildConfigurationList = D5DDE4EF1B5FF01300A284C0 /* Build configuration list for PBXProject "HaruStart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5DDE4EB1B5FF01300A284C0;
+			productRefGroup = D5DDE4F51B5FF01300A284C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5DDE4F31B5FF01300A284C0 /* HaruStart */,
+				D5DDE50F1B5FF01300A284C0 /* HaruStartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5DDE4F21B5FF01300A284C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DDE5061B5FF01300A284C0 /* Main.storyboard in Resources */,
+				D5DDE50B1B5FF01300A284C0 /* LaunchScreen.xib in Resources */,
+				D5DDE5081B5FF01300A284C0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DDE50E1B5FF01300A284C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5DDE4F01B5FF01300A284C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DDE4FD1B5FF01300A284C0 /* AppDelegate.m in Sources */,
+				D5DDE5001B5FF01300A284C0 /* MasterViewController.m in Sources */,
+				D5DDE4FA1B5FF01300A284C0 /* main.m in Sources */,
+				D5DDE5031B5FF01300A284C0 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5DDE50C1B5FF01300A284C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5DDE5171B5FF01300A284C0 /* HaruStartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5DDE5121B5FF01300A284C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5DDE4F31B5FF01300A284C0 /* HaruStart */;
+			targetProxy = D5DDE5111B5FF01300A284C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5DDE5041B5FF01300A284C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DDE5051B5FF01300A284C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5DDE5091B5FF01300A284C0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5DDE50A1B5FF01300A284C0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5DDE5181B5FF01300A284C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5DDE5191B5FF01300A284C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5DDE51B1B5FF01300A284C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HaruStart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5DDE51C1B5FF01300A284C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HaruStart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5DDE51E1B5FF01300A284C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HaruStartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaruStart.app/HaruStart";
+			};
+			name = Debug;
+		};
+		D5DDE51F1B5FF01300A284C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HaruStartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HaruStart.app/HaruStart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5DDE4EF1B5FF01300A284C0 /* Build configuration list for PBXProject "HaruStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DDE5181B5FF01300A284C0 /* Debug */,
+				D5DDE5191B5FF01300A284C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5DDE51A1B5FF01300A284C0 /* Build configuration list for PBXNativeTarget "HaruStart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DDE51B1B5FF01300A284C0 /* Debug */,
+				D5DDE51C1B5FF01300A284C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5DDE51D1B5FF01300A284C0 /* Build configuration list for PBXNativeTarget "HaruStartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DDE51E1B5FF01300A284C0 /* Debug */,
+				D5DDE51F1B5FF01300A284C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5DDE4EC1B5FF01300A284C0 /* Project object */;
+}
